@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #EEBD1A;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo {
+    width: 25%;
+}
+
+.sociais {
+    width: 25%;
+}
+
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 45px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a:hover {
+    color: bisque;
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover:after {
+    width: 30px;
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #f1d88a, #ffffff);
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sociais button i {
+    font-size: 23px;
+}
+
+.sociais button i:hover {
+    font-size: 26px;
+}
+
+body {
+    background-color: white ;
+    width: 100%;
+    margin: auto;
+}
+
+main p {
+    color: black;
+    padding: 10px;
+    text-align: justify;
+
+}
+main img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #EEBD1A;
+    width: 100%;
+    margin: auto;
+}
+

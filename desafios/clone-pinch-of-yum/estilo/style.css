@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    margin-left: 90px;
+    padding: 15px;
+}
+
+.menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-right: 80px;
+    font-size: 1.1em;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.lupa {
+    color: #734060;
+}
+
+header a:hover {
+    color: #8f8f8f;
+    transition: 0.3s;
+}
+
+body {
+    min-width: 300px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.texto-slogan {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    border-top: 0.4px solid #7340604d;
+    padding-top: 15px;
+}
+
+.fonte-especial {
+    color: #734060;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.imagens-destaque img {
+    width: 18%;
+}
+
+.imagens-destaque {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens-destaque img:hover {
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.lista-baixo {
+    color: #734060;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 165px;
+}
+
+.lista-baixo a {
+    color: black;
+    text-decoration: none;
+}
+
+.lista-baixo .txt-primavera {
+    margin-left: 20px;
+}
+
+.lista-baixo .txt-salada {
+    margin-right: 10px;
+}
+
+article .primeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .segunda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .quarta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .quinta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .sexta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .setima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .oitava {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .nona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+}
+
+article picture img {
+    width: 65%;
+    padding-top: 30px;
+    border-radius: 50px;
+}

@@ -1,0 +1,11 @@
+IMPORTAR FONTES
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto+Slab:wght@400;500;600&display=swap');
+
+FONTE NAV:
+font-family: 'Josefin Sans', sans-serif;
+
+FONTE H1:
+font-family: 'Roboto Slab', serif;
+
+LUPA SEARCH
+<i class="fa-solid fa-magnifying-glass"></i>
